@@ -1,0 +1,41 @@
+body{
+    background-color:black;
+  }
+
+  @media (max-width: 999px){
+    body{
+      background-color:darkblue;
+    } }
+
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar{
+        float: left;
+        display: block;
+        color:aliceblue;
+        text-align: center;
+        padding: 14px  16px;
+        text-decoration: none;
+    }
+    h1{
+        color:aliceblue
+      }
+        h2{
+        color:aliceblue
+      }
+        p{
+        color:aliceblue
+      }
+
+     .flex-container{
+      display:flex
+     }
+       @media (max-width:900px) {
+        .flex-container{
+          display: flex;flex-direction: column;
+        }
+        
+       }
+
+  
